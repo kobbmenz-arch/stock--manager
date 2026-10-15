@@ -1,0 +1,79 @@
+STOCK MANAGER: HOW TO PUT IT ON YOUR LAPTOPS AND PHONES
+=========================================================
+
+What you have
+-------------
+This folder is the whole app. Once it is on a web address, every laptop and phone
+can open that address and "install" it like a normal app. After the first visit it
+works with NO internet.
+
+IMPORTANT: each device keeps its OWN data. A sale entered on one phone does not
+appear on another phone or laptop. Use one device per till, or ask for the shared
+version if everyone must see the same stock.
+
+
+PART 1. PUT THE FOLDER ON A WEB ADDRESS (do this once, on a computer)
+---------------------------------------------------------------------
+You need a free host. Any of these work:
+  - Netlify (netlify.com): create a free account, then choose to deploy a site by
+    dragging and dropping a folder. Drop this whole "stock-manager-app" folder.
+  - Cloudflare Pages (pages.cloudflare.com): choose "Upload assets" and upload the folder.
+  - GitHub Pages: upload the files to a new repository and turn on Pages.
+(Menu names change from time to time. Look for "deploy manually", "drag and drop" or
+"upload".)
+
+Afterwards the host gives you an address such as https://yourname.netlify.app
+You can usually rename it in the site settings. The address must start with https.
+
+Keep the address to your staff. The app asks for passwords, but anyone who knows the
+address can open their own empty copy of it.
+
+
+PART 2. MOVE YOUR EXISTING DATA (only if you already use the file version)
+--------------------------------------------------------------------------
+1. Open the OLD version, log in as owner, go to Data, click "Download full backup".
+2. Open the NEW address on the same computer, go to Data, use "Restore backup".
+3. Set your owner password again under Data. Passwords are not copied from a backup.
+Do this on each device that needs the old data.
+
+
+PART 3. INSTALL ON EACH DEVICE
+------------------------------
+ANDROID PHONE (Chrome)
+  1. Open your address in Chrome.
+  2. Tap the "Install app on this device" button at the bottom of the screen, or open
+     the Chrome menu (three dots) and choose "Install app" or "Add to Home screen".
+  3. Tap Install. The Stock Manager icon appears on your home screen.
+
+IPHONE OR IPAD (must be Safari)
+  1. Open your address in Safari.
+  2. Tap the Share button, then "Add to Home Screen", then Add.
+  3. Always open the app from that icon. Installing it this way also stops iOS from
+     clearing your saved data when you do not use the app for a while.
+
+WINDOWS OR MAC LAPTOP (Chrome or Edge)
+  1. Open your address.
+  2. Click the install icon at the right end of the address bar, or the
+     "Install app on this device" button in the app. In Chrome you can also use the
+     menu: Cast, save and share > Install page as app. In Edge: Apps > Install this site as an app.
+  3. Click Install. It opens in its own window and gets a desktop shortcut.
+
+MAC (Safari): File > Add to Dock.
+
+
+PART 4. EVERY DAY
+-----------------
+- Open the app from its icon. It works with or without internet.
+- Each device: set the owner password (Data menu), then the accountant, warehouse
+  manager and sales personnel passwords, then click Log out.
+- Download a backup every week (Data > Download full backup) and keep it on a USB
+  drive or in cloud storage. If a device is lost, reset or its browser data is cleared,
+  the backup is the only way to get your records back.
+
+
+PART 5. UPDATING THE APP
+------------------------
+When you get a new version of this folder, upload it to the same host again, replacing
+the old files. Each device picks up the new version the next time it is opened with
+internet. If it still shows the old one, close the app completely and open it again.
+Your data is not touched by an update.
